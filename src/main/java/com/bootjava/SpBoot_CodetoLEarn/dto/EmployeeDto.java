@@ -7,6 +7,18 @@ public class EmployeeDto {
     String dept;
     Integer age;
 
+    public String getName() {
+        return name;
+    }
+
+    public String getDept() {
+        return dept;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
